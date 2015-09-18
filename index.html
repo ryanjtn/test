@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+	<div style="height: 900px; width: 100%">
+<script src="http://mapwidget-seatics.tn-qa.com/largescreen/js?eventid=2410911&websiteConfigId=3551"></script>
+<script>
+    
+    Seatics.config.checkoutUrl = "https://tickettransaction2.tn-qa.com/Checkout.aspx";
+    
+    Seatics.config.onBuyButtonClicked = function(result) {
+ console.log('eventID: ' + result.eventID);
+ console.log('eventName: ' + result.eventName);
+ console.log('location: ' + result.location);
+ console.log('date: ' + result.date);
+ console.log('venueName: ' + result.venueName);
+ console.log('ticketGroupId: ' + result.ticketGroupId);
+ console.log('row: ' + result.row);
+ console.log('section: ' + result.section);
+ console.log('price: ' + result.price);
+ console.log('quantityRemaining: ' + result.quantityRemaining);
+ console.log('quantityRequested: ' + result.quantityRemaining);
+ console.log('pageUrl: ' + result.pageUrl);
+ };
+        </script>
+</div>
+</body>
+</html>
